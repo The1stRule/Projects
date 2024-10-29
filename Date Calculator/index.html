@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Age calculator app</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <main>
+            <form id="my-form">
+                <div class="input-div">
+                    <label for="day">DAY</label>
+                    <input type="text" name="day" id="day" placeholder="DD" maxlength="2">
+                    <div class="error-message"></div>
+                </div>
+                <div class="input-div">
+                    <label for="month">MONTH</label>
+                    <input type="text" name="month" id="month" placeholder="MM" maxlength="2">
+                    <div class="error-message"></div>
+                </div>
+                <div class="input-div">
+                    <label for="year">YEAR</label>
+                    <input type="text" name="year" id="year" placeholder="YYYY" maxlength="4">
+                    <div class="error-message"></div>
+                </div>
+            </form>
+            <div id="arrow-btn">
+                <div id="border-div"></div>
+                <button id="btn"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
+            </div>
+            <div id="result-div">
+                <p class="result-p"><span>--</span> years</p>
+                <p class="result-p"><span>--</span> months</p>
+                <p class="result-p"><span>--</span> days</p>
+            </div>
+        </main>
+        <script src="./script.js"></script>
+    </body>
+</html>
