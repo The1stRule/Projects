@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://kit.fontawesome.com/0042a04d70.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <main>
+            <form id="myForm">
+                <input type="text" name="title" required placeholder="Product title">
+                <input type="text" name="price" required placeholder="Product price">
+                <input type="text" name="quantity" required placeholder="Product quantity">
+                <button>Add to Cart</button>
+            </form>
+            <div id="total-div">
+                <p id="total">Total: 0.00$</p>             
+                <form id="filter-form">
+                    <input type="text" name="maxPrice" placeholder="Max price">
+                    <input type="text" name="maxQuantity" placeholder="Max quantity">
+                    <button>Confirm</button>
+                </form>
+            </div>
+            <div id="products-div">
+                <div class="product">
+                    <p class="title">Product A</p>
+                    <div class="quantity-div">
+                        <p class="minus">-</p>
+                        <p class="quantity">1</p>
+                        <p class="plus">+</p>
+                    </div>
+                    <div class="price-div">
+                        <p class="discount-p" id="line">Old Price: 20.00$</p>
+                        <p class="price">Price: 10.00$</p>
+                        <p class="discount-p">Discount: -10.00$</p>
+                    </div>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+        </main>
+        <script src="./script.js"></script>
+    </body>
+</html>
