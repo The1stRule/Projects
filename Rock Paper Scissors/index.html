@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <main>
+            <div id="scores-main">
+                <div class="scores-div">
+                    <p class="score-p">Your scores</p>
+                    <div class="scores" id="your-score">
+                        <p>Wins: <span>0</span></p>
+                        <div class="border-div"></div>
+                        <p>Losses: <span>0</span></p>
+                        <div class="border-div"></div>
+                        <p>Draws: <span>0</span></p>
+                    </div>
+                </div>
+                <h1>Rock Paper Scissors</h1>
+                <div class="scores-div" id="pc-score">
+                    <p class="score-p">PC scores</p>
+                    <div class="scores">
+                        <p>Wins: <span>0</span></p>
+                        <div class="border-div"></div>
+                        <p>Losses: <span>0</span></p>
+                        <div class="border-div"></div>
+                        <p>Draws: <span>0</span></p>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="chois-result">
+                <img src="">
+                <p id="result">result...</p>
+                <img src="">
+            </div>
+    
+            
+            <div id="images-p">
+                <div id="images-div">
+                    <img src="./images/rock.png" onclick="container('Rock', 0)" alt="Rock">
+                    <img src="./images/paper.png" onclick="container('Paper', 1)" alt="Paper">
+                    <img src="./images/scissor.png" onclick="container('Scissors', 2)" alt="Scissors">
+                </div>
+                <div id="p-div">
+                    <p>Rock</p>
+                    <p>Paper</p>
+                    <p>Scissors</p>
+                </div>
+            </div>
+        </main>
+
+        <script src="./script.js"></script>
+    </body>
+</html>

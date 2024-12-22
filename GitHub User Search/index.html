@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GitHub User Search</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <main>
+            <form>
+                <div id="input-div">
+                    <input type="text" name="username" placeholder="Enter a user name" required />
+                    <span id="message"></span>
+                </div>
+                <button>Search</button>
+            </form>
+            <div id="user-info">
+                <div id="section1" class="sections">
+                    <img src="./github.jpg" alt="profile" class="t-element">
+                    <div>
+                        <h2 class="t-element">fullname</h2>
+                        <p class="t-element">username</p>
+                    </div>
+                </div>
+                <div id="section2" class="sections">
+                    <p class="t-element"><span>Bio:</span> text</p>
+                    <p class="t-element"><span>Number of public repositories:</span> text</p>
+                    <p><span>Link:</span> <a href="#" class="t-element">URL</a></p>
+                </div>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>

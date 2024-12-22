@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    padding-top: 30px;
+    background-color: #f2f4f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+main {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.meal {
+    width: 100%;
+    padding: 25px 25px 15px 25px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img-ingredients {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+ul {
+    list-style-position: inside;
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.instruction-p {
+    font-size: 0.9rem;
+}
+
+img {
+    width: 200px;
+    border-radius: 25px;
+}
+
+form {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
+
+#input-div {
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input-div input {
+    height: 2rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    width: 60px;
+    height: 2rem;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #181a1b;
+    color: white;
+    transition: 0.20s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    color: #181a1b;
+    border: 1px solid #181a1b;
+}
+
+span {
+    font-size: 0.8rem;
+}
