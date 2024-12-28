@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #181a1b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 350px;
+  height: 350px;
+  padding-top: 30px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+form {
+  width: 75%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, button {
+  height: 30px;
+  border-radius: 5px;
+}
+
+input, button:focus {
+  outline: none;
+}
+
+input {
+  padding-left: 10px;
+  border: none;
+}
+
+button {
+  border: 1px solid #2684fc;
+  background-color: #2684fc;
+  color: white;
+  transition: 0.25s;
+}
+
+button:hover {
+  background-color: white;
+  color: #2684fc;
+}
+
+#btn-div {
+  display: flex;
+  gap: 20px;
+}
+
+.timer-btn {
+  width: 60px;
+  font-size: 11px;
+}
+
+#start-btn {
+  background-color: green;
+  border-color: green;
+}
+
+#start-btn:hover {
+  background-color: white;
+  color: green;
+}
+
+#stop-btn {
+  background-color: red;
+  border-color: red;
+}
+
+#stop-btn:hover {
+  background-color: white;
+  color: red;
+}
+
+#timer-section {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}

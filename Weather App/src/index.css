@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #181a1b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 350px;
+  height: 350px;
+  padding-top: 30px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+#main-p {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+form {
+  width: 75%;
+  height: 32%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, button {
+  height: 30px;
+  border-radius: 5px;
+}
+
+input, button:focus {
+  outline: none;
+}
+
+input {
+  padding-left: 10px;
+  border: none;
+}
+
+button {
+  border: 1px solid #2684fc;
+  background-color: #2684fc;
+  color: white;
+  transition: 0.25s;
+}
+
+button:hover {
+  background-color: white;
+  color: #2684fc;
+}
+
+#result-div {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+}
+
+#div1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+#result-div p {
+  font-size: 15px;
+}
+
+#temp-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+#temp-div p {
+  width: 115px;
+}
+
+#temp-div button {
+  padding: 1px 3px;
+  height: 20px;
+  font-size: 11px;
+}
+
+h2 {
+  padding-left: 35px;
+}
+
+img {
+  width: 120px;
+  padding-left: 27px;
+}
+
+#error-message {
+  color: red;
+}
