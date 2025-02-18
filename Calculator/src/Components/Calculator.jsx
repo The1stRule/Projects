@@ -32,13 +32,8 @@ const Calculator = () => {
             setSecondNum("");
             operators[1] !== "=" ? setOperator(prev => [prev[1]]) : setOperator([]);
         }
-
-        console.log(operators)
+        
     }, [operators]);
-
-    useEffect(() => {
-        console.log(firstNum, secondNum)
-    })
 
 
     const handleClick = (itemValue) => {
@@ -50,12 +45,12 @@ const Calculator = () => {
             setOperator([]);
         } else if (typeof itemValue === "number" || itemValue === ".") {
             if(operators.length < 1) {
-                if(itemValue === "." && !(firstNum.toString().includes(itemValue)) || typeof itemValue === "number") {
-                    setFirstNum(prev => prev + itemValue)
+                if(itemValue === "." && !(firstNum.includes(itemValue)) || typeof itemValue === "number") {
+                    firstNum + itemValue !== "00" && setFirstNum(prev => prev + itemValue)
                 }
             } else {
                 if(itemValue === "." && !(secondNum.includes(itemValue)) || typeof itemValue === "number") {
-                    setSecondNum(prev => prev + itemValue)
+                    secondNum + itemValue !== "00" && setSecondNum(prev => prev + itemValue)
                 }
             }
         } else if(itemValue !== ".") {
@@ -67,8 +62,8 @@ const Calculator = () => {
         <>
             <div id="answers">
                 {firstNum === "" ? "0" : (operators.length === 0 || isFirst && secondNum === "" ? 
-                (firstNum[0] === "0" && firstNum[1] !== "." && firstNum.length === 2 ?  firstNum.slice(1, 17) : firstNum.slice(0, 17)) : 
-                (secondNum === "" ? "0" : secondNum.slice(0, 17)))}
+                (firstNum[0] === "0" && firstNum[1] !== "." && firstNum.length === 2 ?  firstNum.slice(1, 16) : firstNum.slice(0, 16)) : 
+                (secondNum === "" ? "0" : secondNum.slice(0, 16)))}
             </div>
             <div id="grid-div">
                 {

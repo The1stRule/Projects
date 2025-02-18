@@ -3,7 +3,7 @@ import { useState } from 'react';
 const WeatherApp = () => {
     const [weather, setWeather] = useState({});
     const [tempUnit, setTempUnit] = useState("Celsius");
-    const [errorText, setErrorText] = useState("")
+    const [errorText, setErrorText] = useState("");
 
     const fetchData = async (cityName) => {
         try {
