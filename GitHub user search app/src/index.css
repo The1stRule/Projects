@@ -1,0 +1,325 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#body-div {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+section {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+section p {
+    font-size: 1.07rem;
+    font-weight: 500;
+}
+
+section span {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+span img {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+p,h2,a,span {
+    letter-spacing: 1px;
+}
+
+#main-section,form {
+    background-color: #1f2a48;
+    border-radius: 10px;
+}
+
+form {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#input-div {
+    width: 50%;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#input-div i {
+    color: #056ada;
+}
+
+input {
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1f2a48;
+    color: white;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: white;
+    letter-spacing: 1px;
+}
+
+button {
+    width: 75px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #0079fe;
+    border: 1px solid #0079fe;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+button:hover {
+    background-color: white;
+    color: #0079fe;
+}
+
+#main-section {
+    height: 350px;
+    padding: 50px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+img {
+    width: 95px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+#main-div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#profile-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+#profile-info div {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+a {
+    font-size: 12px;
+    color: #0079fe;
+    text-decoration: none;
+}
+
+#profile-info p {
+    font-size: 13px;
+    color: #bdc1cc;
+}
+
+#date-p {
+    width: 40%;
+    height: 15px;
+    text-align: right;
+}
+
+#bio {
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#achievements {
+    padding: 15px 50px 15px 20px;
+    background-color: #141c2f;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.github-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.github-info p {
+    font-size: 10px;
+    color: #bdc1cc;
+}
+
+.github-info span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#links-location {
+    display: flex;
+    gap: 3.5rem;
+}
+
+.links-loc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.links-loc p {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.links-loc p, .links-loc a {
+    color: #e7e8eb;
+    display: flex;
+    gap: 5px;
+}
+
+#error-message {
+    font-size: 12px;
+    color: red;
+}
+
+/* Responsive */
+
+@media screen and (min-width: 1920px) {
+    main {
+        width: 750px;
+        height: 550px;
+    }
+
+    #main-section {
+        height: 100%;
+    }
+
+    section {
+        width: 100%;
+    }
+    
+    section p {
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+    
+    section span {
+        font-size: 1rem;
+    }
+    
+    span img {
+        width: 23px;
+        height: 23px;
+    }
+    
+    form {
+        padding: 15px 20px 15px 20px;
+    }
+    
+    #input-div i {
+        font-size: 20px;
+    }
+    
+    input {
+        font-size: 1.2rem;
+    }
+    
+    input::placeholder {
+        font-size: 1.1rem;
+    }
+    
+    button {
+        width: 100px;
+        height: 43px;
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+    
+    img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+    
+    a {
+        font-size: 1rem;
+    }
+    
+    #profile-info p {
+        font-size: 1.1rem;
+    }
+    
+    #bio {
+        margin-top: 10px;
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+    
+    #achievements {
+        padding: 20px 50px 20px 20px;
+    }
+    
+    .github-info p {
+        font-size: 1rem;
+    }
+    
+    .github-info span {
+        font-size: 1.2rem;
+    }
+    
+    .links-loc p {
+        font-size: 1rem;
+    }
+    
+    #error-message {
+        font-size: 0.9rem;
+    }
+}
