@@ -33,7 +33,7 @@ section p {
 }
 
 section span {
-    font-size: 15px;
+    font-size: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,8 +41,8 @@ section span {
 }
 
 span img {
-    width: 20px;
-    height: 20px;
+    width: 17px;
+    height: 17px;
     cursor: pointer;
 }
 
