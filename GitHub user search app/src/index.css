@@ -523,7 +523,7 @@ a {
 
     main {
         width: 80%;
-        height: 80%;
+        height: 70%;
     }
 
     #main-section {
@@ -537,6 +537,7 @@ a {
     #main-div {
         width: 100%;
         gap: 10px;
+        overflow: hidden;
     }
 
     section {
@@ -558,21 +559,24 @@ a {
     }
     
     input {
-        font-size: 0.5rem;
-        width: 70%;
+        width: 100%;
+        font-size: 0.7rem;
     }
     
     input::placeholder {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
 
     form {
         width: 100%;
-        padding: 5px;
     }
 
     #input-div i {
         font-size: 14px;
+    }
+
+    #input-div {
+        width: 65%;
     }
     
     button {
@@ -611,6 +615,7 @@ a {
 
     #date-p {
         width: 100%;
+        text-align: center;
     }
     
     #bio {
@@ -643,7 +648,8 @@ a {
     }
 
     #error-message {
-        width: 20%;
+        width: 10%;
         font-size: 0.6rem;
+        text-align: center;
     }
 }
