@@ -519,7 +519,7 @@ a {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
 
     main {
         width: 80%;
@@ -535,6 +535,7 @@ a {
     }
 
     #main-div {
+        width: 100%;
         gap: 10px;
     }
 
@@ -587,6 +588,7 @@ a {
     }
     
     h2 {
+        width: 100%;
         font-size: 1.1rem;
         font-weight: 600;
     }
@@ -596,6 +598,7 @@ a {
     }
 
     #profile-info {
+        width: 100%;
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -604,6 +607,10 @@ a {
     
     #profile-info p {
         font-size: 0.7rem;
+    }
+
+    #date-p {
+        width: 100%;
     }
     
     #bio {
