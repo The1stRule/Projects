@@ -228,7 +228,7 @@ a {
 
 /* Responsive */
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1600) {
     main {
         width: 750px;
         height: 550px;
@@ -321,5 +321,306 @@ a {
     
     #error-message {
         font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    main {
+        width: 600px;
+        height: 450px;
+    }
+
+    #main-section {
+        height: 100%;
+        padding: 35px;
+    }
+
+    #main-div {
+        gap: 10px;
+    }
+
+    section {
+        width: 100%;
+    }
+    
+    section p {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    
+    section span {
+        font-size: 0.8rem;
+    }
+    
+    span img {
+        width: 18px;
+        height: 18px;
+    }
+    
+    input {
+        font-size: 0.9rem;
+    }
+    
+    input::placeholder {
+        font-size: 0.9rem;
+    }
+    
+    button {
+        width: 75px;
+        height: 40px;
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+    
+    img {
+        width: 85px;
+        height: 85px;
+    }
+    
+    h2 {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    
+    a {
+        font-size: 0.9rem;
+    }
+    
+    #profile-info p {
+        font-size: 0.9rem;
+    }
+    
+    #bio {
+        margin-top: 10px;
+        font-size: 0.9rem;
+        font-weight: 300;
+    }
+    
+    #achievements {
+        padding: 20px 50px 20px 20px;
+    }
+    
+    .github-info p {
+        font-size: 0.7rem;
+    }
+    
+    .github-info span {
+        font-size: 1rem;
+    }
+    
+    .links-loc p {
+        font-size: 0.9rem;
+    }
+    
+    #error-message {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    main {
+        width: 450px;
+        height: 300px;
+    }
+
+    #main-section {
+        height: 100%;
+        padding: 30px;
+        gap: 20px;
+    }
+
+    #main-div {
+        gap: 10px;
+    }
+
+    section {
+        width: 100%;
+    }
+    
+    section p {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    
+    section span {
+        font-size: 0.7rem;
+    }
+    
+    span img {
+        width: 14px;
+        height: 14px;
+    }
+    
+    input {
+        font-size: 0.8rem;
+    }
+    
+    input::placeholder {
+        font-size: 0.8rem;
+    }
+
+    form {
+        padding: 5px;
+    }
+
+    #input-div i {
+        font-size: 14px;
+    }
+    
+    button {
+        width: 55px;
+        height: 30px;
+        font-size: 0.7rem;
+        font-weight: 600;
+    }
+    
+    img {
+        width: 85px;
+        height: 85px;
+    }
+    
+    h2 {
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    
+    a {
+        font-size: 0.8rem;
+    }
+    
+    #profile-info p {
+        font-size: 0.7rem;
+    }
+    
+    #bio {
+        margin-top: 10px;
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+    
+    #achievements {
+        padding: 20px 50px 20px 20px;
+    }
+    
+    .github-info p {
+        font-size: 0.7rem;
+    }
+    
+    .github-info span {
+        font-size: 0.8rem;
+    }
+    
+    .links-loc p {
+        font-size: 0.7rem;
+    }
+    
+    #error-message {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    main {
+        width: 80%;
+        height: 80%;
+    }
+
+    #main-section {
+        height: 100%;
+        padding: 30px;
+        gap: 20px;
+    }
+
+    #main-div {
+        gap: 10px;
+    }
+
+    section {
+        width: 100%;
+    }
+    
+    section p {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    
+    section span {
+        font-size: 0.7rem;
+    }
+    
+    span img {
+        width: 10px;
+        height: 10px;
+    }
+    
+    input {
+        font-size: 0.5rem;
+        width: 70%;
+    }
+    
+    input::placeholder {
+        font-size: 0.5rem;
+    }
+
+    form {
+        width: 100%;
+        padding: 5px;
+    }
+
+    #input-div i {
+        font-size: 14px;
+    }
+    
+    button {
+        width: 15%;
+        height: 30px;
+        font-size: 0.6rem;
+        font-weight: 600;
+    }
+    
+    img {
+        width: 85px;
+        height: 85px;
+    }
+    
+    h2 {
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    
+    a {
+        font-size: 0.8rem;
+    }
+    
+    #profile-info p {
+        font-size: 0.7rem;
+    }
+    
+    #bio {
+        margin-top: 10px;
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+    
+    #achievements {
+        padding: 20px 50px 20px 20px;
+    }
+    
+    .github-info p {
+        font-size: 0.7rem;
+    }
+    
+    .github-info span {
+        font-size: 0.8rem;
+    }
+    
+    .links-loc p {
+        font-size: 0.7rem;
+    }
+    
+    #error-message {
+        width: 20%;
+        font-size: 0.5rem;
     }
 }
