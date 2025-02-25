@@ -4,6 +4,7 @@ const SearchUser = ({ toggle, handleSubmit, isError }) => {
             <div id="input-div">
                 <label htmlFor="username"><i className="fa-solid fa-magnifying-glass"></i></label>
                 <input style={{ backgroundColor: toggle? "#1f2a48" : "#fefefc", color: toggle? "white" : "#474b4f"}}
+                className={ toggle? "dark" : "light" }
                 type="text" name="username" id="username" placeholder="Search Github username..." required />
             </div>
             <p id="error-message">{isError? "User not found" : ""}</p>
